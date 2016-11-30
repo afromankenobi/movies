@@ -3,5 +3,11 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Movie.destroy_all
+Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+
+10.times do |i|
+  Tag.create(name: "Tag #{i}")
+end
