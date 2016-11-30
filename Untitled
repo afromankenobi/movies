@@ -1,0 +1,5 @@
+class Array
+  def to_xls
+    #logica para crear xls
+  end
+end

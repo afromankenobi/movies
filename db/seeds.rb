@@ -11,3 +11,5 @@ Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 10.times do |i|
   Tag.create(name: "Tag #{i}")
 end
+
+AdminUser.create!(email: 'hola@losamo.com', password: '12345678', password_confirmation: '12345678')
